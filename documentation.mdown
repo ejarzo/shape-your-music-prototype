@@ -20,7 +20,7 @@ When the program executes, the array is traversed, and each note value is sounde
   - add new point that “connects” to most recently added point
   - if added on start point, completes “circuit”
 
-## undo/redo system
+2. undo/redo system
 
-2. drag/morph tool (maybe add later)
+3. drag/morph tool (maybe add later)
   - move already existing nodes
