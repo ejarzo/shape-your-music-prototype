@@ -6,8 +6,13 @@ The user, let's call him Mac, is presented with a bank canvas.
 Mac can draw shapes by placing vertecies. After the starting point is placed, each subsequent vertex he places will connect to the previous one with a straight line. In this way, he can create open or closed gemoetric figures. 
 
 A vertex is any point that is NOT the starting point. 
+Mac chooses a C major key and the initial note C0.
 
-Once he has completed his shape(s), he clicks the play button. The melody begins from the starting point as a dot traverses along the line at a constant velocity. Each line represents a note duration, each vertex represents a note on event. The first note is chosen by the user, and sounds for as long as the first line. When the dot reaches the first vertex, the note changes based on the angle of intersection between the first and second lines. The 360 possible degrees are divided into positive 180 and negative 180, both of which are then divided into 7 equal parts, that each correspond to a scale degree. The next note will be the initial note plus (positive side) or minus (negative side) this scale degree. For example, if a C note is playing in the key of C and encounters a 90 degree angle, this would correspond +4 scale degrees, and the next note that plays would be a G, the dominant. 
+Once he has completed his shape(s), he clicks the play button. The melody begins from the starting point as a dot traverses along the line at a constant velocity. Each line represents a note duration, each vertex represents a "note on" event. The first note is chosen by the user, and sounds for as long as the first line. 
+
+When the dot reaches the first vertex, the note changes based on the angle of intersection between the first and second lines. The 360 possible degrees are divided into positive 180 and negative 180, both of which are then divided into 7 equal parts, that each correspond to a scale degree. The next note will be the initial note plus (positive side) or minus (negative side) this scale degree. For example, if a C note is playing in the key of C and encounters a 90 degree angle, this would correspond +4 scale degrees, and the next note that plays would be a G, the dominant. 
+
+This continues until an endpoint is reached, or the start point is reached. If and endpoint is reached, the melody stops. If the start point is reached, Mac has two options. He can have the melody restart from the original initial note (C0 in this case), or have the melody continue as normal (the next note would be chosen by the method described above).
 
 
 
