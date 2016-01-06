@@ -1,7 +1,38 @@
+# Project Description
+
+Shape Your Music will allow users to create melodies from geometry. 
+
+The user, let's call him Mac, is presented with a bank canvas.
+Mac can draw shapes by placing vertecies. After the starting point is placed, each subsequent vertex he places will connect to the previous one with a straight line. In this way, he can create open or closed gemoetric figures. 
+
+A vertex is any point that is NOT the starting point. 
+
+Once he has completed his shape(s), he clicks the play button. The melody begins from the starting point as a dot traverses along the line at a constant velocity. Each line represents a note duration, each vertex represents a note on event. The first note is chosen by the user, and sounds for as long as the first line. When the dot reaches the first vertex, the note changes based on the angle of intersection between the first and second lines. The 360 possible degrees are divided into positive 180 and negative 180, both of which are then divided into 7 equal parts, that each correspond to a scale degree. The next note will be the initial note plus (positive side) or minus (negative side) this scale degree. For example, if a C note is playing in the key of C and encounters a 90 degree angle, this would correspond +4 scale degrees, and the next note that plays would be a G, the dominant. 
+
+
+
+A shape consists of two or more vertecies. 
+Each line represents a note duration, each vertex represents a note on event. 
+
+There will be a default instrument used.
+When the user clicks the play button after they are done drawing their shape, a dot graphic travels around the shape from a desired starting point. 
+The user may customize the velocity (tempo) at which the dot travels around the shape.
+Once the dot reaches the starting point again, the music is taken back to the original note.
+The notes change based on the angles at the corners of the shape.
+The user is able to pick their scale (chromatic, major, minor etc.)
+A circle will be sliced into sections based on the musical scale, and the the sections will be scaled depending on the change in interval.
+If a non chromatic scale is chosen and the dot does not change in direction directly corresponding to a change in interval for that scale, the note will jump to the nearest interval.
+For a curve, there will be a modulation in pitch.
+The user will also be able to insert stops in the shape and lengthen them to create pauses in the music.
+The user will also be able to insert their own sounds and samples to use.
+This web app will ultimately give music makers a new way of discovering riffs and melodies.
+
+
 # High-level Representation of a “shape”
 
-A shape consists of a list of “node” elements 
-a node can be a head or a tail. 
+A shape has two or more vertecies.
+A shape consists of a list of “node” elements (vertecies)
+A node can be a head or a tail. 
 
 Each node n has these properties:
 - x coord
