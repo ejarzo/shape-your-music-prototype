@@ -1,0 +1,26 @@
+# High-level Representation of a “shape”
+
+A shape consists of a list of “node” elements 
+a node can be a head or a tail. 
+
+Each node n has these properties:
+- x coord
+- y coord
+- note value        
+  - the numerical value of a note (MIDI number or frequency)
+  - this value is calculated by taking the previous nodes note and adding or subtracting an interval based on the angle at node n-1
+- note length       
+  - the length of the note, as determined by the distance between this node and the previous node
+
+When the program executes, the array is traversed, and each note value is sounded for its duration.
+
+# User Tools
+
+1. draw/place node tool
+  - add new point that “connects” to most recently added point
+  - if added on start point, completes “circuit”
+
+## undo/redo system
+
+2. drag/morph tool (maybe add later)
+  - move already existing nodes
