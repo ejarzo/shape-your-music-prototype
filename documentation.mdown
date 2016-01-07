@@ -12,25 +12,11 @@ Once he has completed his shape(s), he clicks the play button. The melody begins
 
 When the dot reaches the first vertex, the note changes based on the angle of intersection between the first and second lines. The 360 possible degrees are divided into positive 180 and negative 180, both of which are then divided into 7 equal parts, that each correspond to a scale degree. The next note will be the initial note plus (positive side) or minus (negative side) this scale degree. For example, if a C note is playing in the key of C and encounters a 90 degree angle, this would correspond +4 scale degrees, and the next note that plays would be a G, the dominant. 
 
-This continues until an endpoint is reached, or the start point is reached. If and endpoint is reached, the melody stops. If the start point is reached, Mac has two options. He can have the melody restart from the original initial note (C0 in this case), or have the melody continue as normal (the next note would be chosen by the method described above).
+This continues until an endpoint (no subsequent vertecies) is reached, or the start point is reached. If an endpoint is reached, the melody stops. If the start point is reached, Mac has two options. He can have the melody restart from the original initial note (C0 in this case), or have the melody continue as normal (the next note would be chosen by the method described above).
 
-
-
-A shape consists of two or more vertecies. 
-Each line represents a note duration, each vertex represents a note on event. 
-
-There will be a default instrument used.
-When the user clicks the play button after they are done drawing their shape, a dot graphic travels around the shape from a desired starting point. 
-The user may customize the velocity (tempo) at which the dot travels around the shape.
-Once the dot reaches the starting point again, the music is taken back to the original note.
-The notes change based on the angles at the corners of the shape.
-The user is able to pick their scale (chromatic, major, minor etc.)
-A circle will be sliced into sections based on the musical scale, and the the sections will be scaled depending on the change in interval.
-If a non chromatic scale is chosen and the dot does not change in direction directly corresponding to a change in interval for that scale, the note will jump to the nearest interval.
-For a curve, there will be a modulation in pitch.
-The user will also be able to insert stops in the shape and lengthen them to create pauses in the music.
-The user will also be able to insert their own sounds and samples to use.
-This web app will ultimately give music makers a new way of discovering riffs and melodies.
+Mac can also add a "rest" vertex, which sounds silence for its note's duration.
+A 180 degree vertex represents an octave up, and a 0 degree vertex represents an octave down (???).
+He can choose his scale (chromatic, major, or minor for now), starting note, and a tempo (velocity of the dot)
 
 
 # High-level Representation of a “shape”
@@ -60,3 +46,11 @@ When the program executes, the array is traversed, and each note value is sounde
 
 3. drag/morph tool (maybe add later)
   - move already existing nodes
+
+# Ideas for the Future
+
+- curved lines (for modulation for example)
+- custom synths
+- drag/morph tool
+- user input samples
+- more scales
