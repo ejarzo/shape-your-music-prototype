@@ -1,0 +1,92 @@
+# Architecture
+
+--------------------------------------------------------------------------------
+
+Shape
+
+A Shape is essentially a linked list, but will be represented by an array. Each element is a "node."
+
+shape {
+  node array
+  ...
+}
+
+CONSTRUCTOR
+shape()
+
+PUBLIC
+insert_node(x,y)
+play_shape()
+
+--------------------------------------------------------------------------------
+
+Node
+
+A node is a class with the following data:
+
+- x     - the x coordinate
+- y     - the y coordinate
+- note value        
+  - the numerical value of a note (MIDI number or frequency)
+  - this value is calculated by taking the previous nodes note and adding or subtracting an interval based on the angle at node n-1
+- note length       
+  - the length of the note, as determined by the distance between this node and the previous node
+
+class node {
+  int x           (pixel)
+  int y           (pixel)
+  int note_val    (MIDI note or Freqency)
+  int note_len    (miliseconds)
+  ...
+}
+
+  and the following functions:
+
+ **(getters/setters might not be neccessary in python)**
+ CONSTRUCTOR
+  node(x,y, prev_node, prev_prev_node) {
+    n = new node 
+    n.put_x(x)
+    n.put_y(y)
+    n.put_length(prev_node)
+    n.put_note_value(prev_node, prev_prev_node)
+    return n
+  }
+
+ PUBLIC
+  int get_x
+  int get_y
+  int get_note_value
+  int get_note_length
+  void play
+  void stop
+
+PRIVATE
+  
+  --
+  put_x (x)
+  put_y (y)
+  put_note_value (prev_node, prev_prev_node)
+    finds angle of intersection and appliess calculation to insert correct note value
+  put_length (prev_node)
+  
+  --
+  float angle(x1,y1,x2,y2,x3,y3)
+    - given the three coordinate pairs, returns the angle centered at x2,y2
+  
+  int angle_to_interval(a)
+    - give the angle, returns the corresponding step interval
+
+
+
+  -------
+
+thoughts/questions
+
+two nodes can not be at the same coordinate 
+repositioning nodes - mutable vs immuable shape - new shape or just update that node? New shape would disrupt playback...
+
+in the GUI have each node be numbered somehow - then update this index node
+
+connecting end to start
+

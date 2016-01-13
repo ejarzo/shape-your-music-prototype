@@ -1,0 +1,11 @@
+body {
+    margin: auto;
+
+}
+canvas {
+    border: 1px solid #BBB;
+    margin: 20px 70px;
+}
+canvas:hover {
+    cursor: crosshair;
+}
