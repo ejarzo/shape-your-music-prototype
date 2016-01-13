@@ -4,7 +4,9 @@
 //"use strict"
 // Example 1-1: stroke and fill
 
-var nodes = [];
+
+var shape1 = new Shape(110);
+var ACTIVE_SHAPE = shape1;
 
 function setup() {
   createCanvas(1000, 650);
@@ -21,39 +23,39 @@ var prev_n;
 var count = 0;
 var del = 0;
 var freq = 110;
+var theta = 0;
 
 function mouseClicked() {
     var len  = 0;
-    
-    if (prev_n) {
+    var n;
+    if (ACTIVE_SHAPE.is_empty()) {
+        line(mouseX, mouseY, mouseX, mouseY);
+        n = new Node(mouseX, mouseY, len, del, freq);
+    }
+    else if (ACTIVE_SHAPE.length() < 2) {
         line(prev_n.x, prev_n.y, mouseX, mouseY);
         len  = dist(prev_n.x, prev_n.y, mouseX, mouseY) / 200;
-        //console.log(len);
+        n = new Node(mouseX, mouseY, len, del, freq);
     }
     else {
-        line(mouseX, mouseY, mouseX, mouseY);
-    }
-    //console.log(len);
-    var n = new Node(mouseX, mouseY, len, del, freq);
+        line(prev_n.x, prev_n.y, mouseX, mouseY);
+        len  = dist(prev_n.x, prev_n.y, mouseX, mouseY) / 200;
+        console.log(count);
+        n = new Node(mouseX, mouseY, len, del, freq);
 
-    console.log(nodes);
-    nodes.push(n);
-    console.log(count);
+        theta = angle_of_intersection(ACTIVE_SHAPE.at(count-1),ACTIVE_SHAPE.at(count-2),n)
+        n.freq *= theta;
 
-    if(nodes.length >= 3) {
-        var theta = angle_of_intersection(nodes[count-1],nodes[count-2],nodes[count]);
-        console.log(new_frequency(freq, theta))
-        freq += theta*100;
     }
+
+    ACTIVE_SHAPE.append(n);
+
 
     del += len
 
     
     prev_n = n;
-    
-    //console.log(nodes);
 
-    //console.log(nodes.length);
 
     count++;
 }
@@ -77,23 +79,11 @@ function new_frequency(freq, theta) {
 
 }
 
-function delays(ms) {
-    var cur_d = new Date();
-    var cur_ticks = cur_d.getTime();
-    var ms_passed = 0;
-    while(ms_passed < ms) {
-        var d = new Date();  // Possible memory leak?
-        var ticks = d.getTime();
-        ms_passed = ticks - cur_ticks;
-        // d = null;  // Prevent memory leak?
-    }
-}
-
 function play_shape(){
-     for (var i = 1; i < nodes.length; i++) {
+     for (var i = 1; i < ACTIVE_SHAPE.length(); i++) {
        // console.log(delay);
         //delays(delay[i]*1000.0);
-        nodes[i].play();
+        ACTIVE_SHAPE.at(i).play();
         //setTimeout(nodes[i].play(), 5000);
 
     };

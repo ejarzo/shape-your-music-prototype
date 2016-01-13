@@ -24,10 +24,10 @@ class Node {
         setTimeout(play_helper, this.del*1000, this);
     }
 }
-function    play_helper(node) {
-        console.log("HELPER")
-    
-        var osc = new p5.Oscillator();
-        osc.start(0, node.freq);
-        osc.stop(node.len)
-    }
+function play_helper(node) {
+//    console.log("HELPER")
+
+    var osc = new p5.Oscillator();
+    osc.start(0, node.freq);
+    osc.stop(node.len)
+}
