@@ -7,6 +7,12 @@ $(document).ready(function() {
         stop_all();
     });
     $("#complete-shape").click(function(e){
-        complete_shape(ACTIVE_SHAPE);
+        complete_shape();
     });
+    $("#clear").click(function(e){
+        clear();
+        shapes = [];
+        ACTIVE_SHAPE = new Shape(START_FREQ);
+    });
+
 });

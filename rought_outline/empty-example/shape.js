@@ -4,7 +4,7 @@ class Shape {
     constructor(start_freq) {
         this.nodes = [];
         this.start_freq = start_freq;
-        this.loop = false;
+        this.completed = false;
     }
     at(i){
         return this.nodes[i]
@@ -19,6 +19,9 @@ class Shape {
         else return false;
     }
     append(x,y){
+        if (this.is_empty()) {
+            ellipse(x, y, 5, 5);
+        };
         var len = 0;
         var del = 0;
         var freq = this.start_freq;
@@ -60,8 +63,35 @@ class Shape {
         };
     }
     complete_shape(){
-        var n = this.at(0)
-        this.loop = true;
-        this.append(n.x, n.y);
+        if (this.completed == false && this.length() > 1) {
+            var n = this.at(0)
+            this.completed = true;
+            this.append(n.x, n.y);   
+            return this;
+        }
+        else {
+            console.log("no shape to complete");
+        }
     }
+}
+
+
+function angle_of_intersection (p1,p2,p3) {
+    var x1 = p1.x 
+    var y1 = p1.y
+    var x2 = p2.x 
+    var y2 = p2.y
+    var x3 = p3.x 
+    var y3 = p3.y
+
+    return acos((pow(dist(x1,y1,x2,y2), 2) + pow(dist(x1,y1,x3,y3), 2) 
+            - pow(dist(x2,y2,x3,y3), 2)) / (2 * dist(x1,y1,x2,y2) * dist(x1,y1,x3,y3)))
+}
+
+function new_frequency(freq, theta) {
+    if (theta > HALF_PI) {
+       /* theta = theta / -2;*/
+    };
+    //console.log(theta);
+
 }

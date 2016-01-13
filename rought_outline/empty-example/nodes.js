@@ -12,7 +12,7 @@ class Node {
         var osc = new p5.Oscillator();
         osc.freq = this.freq;
         var del = this.del
-        console.log(this.IS_PLAYING);
+        //console.log(this.IS_PLAYING);
         if (this.IS_PLAYING) {
             setTimeout(play_helper, this.del*1000, this);
         };
