@@ -6,27 +6,22 @@ class Node {
         this.len = len;
         this.del = del;
         this.freq = freq;
+        this.IS_PLAYING = true;
     }
     play() {
-        //var osc = new p5.Oscillator();
-        //var env = new p5.Env();
-        
-        //env.attackTime = 0.5;
-        //env.releaseTime = 0.5;
-
-        console.log("DEL:", this.del);
-        console.log("LEN", this.len);
-
         var osc = new p5.Oscillator();
         osc.freq = this.freq;
         var del = this.del
-        //env.play(osc, 0)
-        setTimeout(play_helper, this.del*1000, this);
+        console.log(this.IS_PLAYING);
+        if (this.IS_PLAYING) {
+            setTimeout(play_helper, this.del*1000, this);
+        };
+    }
+    stop_playback() {
+        this.IS_PLAYING = false;
     }
 }
 function play_helper(node) {
-//    console.log("HELPER")
-
     var osc = new p5.Oscillator();
     osc.start(0, node.freq);
     osc.stop(node.len)

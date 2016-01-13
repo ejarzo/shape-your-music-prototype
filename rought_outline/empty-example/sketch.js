@@ -22,43 +22,19 @@ function draw() {
 var prev_n;
 var count = 0;
 var del = 0;
-var freq = 110;
+var freq = 440;
 var theta = 0;
 
 function mouseClicked() {
-    var len  = 0;
-    var n;
-    if (ACTIVE_SHAPE.is_empty()) {
-        line(mouseX, mouseY, mouseX, mouseY);
-        n = new Node(mouseX, mouseY, len, del, freq);
-    }
-    else if (ACTIVE_SHAPE.length() < 2) {
-        line(prev_n.x, prev_n.y, mouseX, mouseY);
-        len  = dist(prev_n.x, prev_n.y, mouseX, mouseY) / 200;
-        n = new Node(mouseX, mouseY, len, del, freq);
-    }
-    else {
-        line(prev_n.x, prev_n.y, mouseX, mouseY);
-        len  = dist(prev_n.x, prev_n.y, mouseX, mouseY) / 200;
-        console.log(count);
-        n = new Node(mouseX, mouseY, len, del, freq);
-
-        theta = angle_of_intersection(ACTIVE_SHAPE.at(count-1),ACTIVE_SHAPE.at(count-2),n)
-        n.freq *= theta;
-
-    }
-
-    ACTIVE_SHAPE.append(n);
-
-
-    del += len
-
-    
-    prev_n = n;
-
-
-    count++;
+    if (mouseX > 0 && mouseY > 0) {
+        ACTIVE_SHAPE.append(mouseX, mouseY);
+    };
 }
+
+function complete_shape(shape) {
+    ACTIVE_SHAPE.complete_shape()
+}
+
 
 function angle_of_intersection (p1,p2,p3) {
     var x1 = p1.x 
@@ -68,7 +44,8 @@ function angle_of_intersection (p1,p2,p3) {
     var x3 = p3.x 
     var y3 = p3.y
 
-    return acos((pow(dist(x1,y1,x2,y2), 2) + pow(dist(x1,y1,x3,y3), 2) - pow(dist(x2,y2,x3,y3), 2)) / (2 * dist(x1,y1,x2,y2) * dist(x1,y1,x3,y3)))
+    return acos((pow(dist(x1,y1,x2,y2), 2) + pow(dist(x1,y1,x3,y3), 2) 
+            - pow(dist(x2,y2,x3,y3), 2)) / (2 * dist(x1,y1,x2,y2) * dist(x1,y1,x3,y3)))
 }
 
 function new_frequency(freq, theta) {
@@ -79,18 +56,25 @@ function new_frequency(freq, theta) {
 
 }
 
-function play_shape(){
-     for (var i = 1; i < ACTIVE_SHAPE.length(); i++) {
-       // console.log(delay);
-        //delays(delay[i]*1000.0);
-        ACTIVE_SHAPE.at(i).play();
-        //setTimeout(nodes[i].play(), 5000);
+function play_shape(shape){
+    shape.play();
+}
 
-    };
+function stop_shape(shape){
+    shape.stop_playback();
 }
 
 function keyPressed() {
 if (keyCode === LEFT_ARROW) {
-    play_shape();
+    play_shape(ACTIVE_SHAPE);
+  }    
+if (keyCode === RIGHT_ARROW) {
+    stop_shape(ACTIVE_SHAPE);
   }    
 }
+
+
+function play_all(){
+    play_shape(ACTIVE_SHAPE);
+}
+
