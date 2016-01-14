@@ -3,7 +3,7 @@ var ACTIVE_SHAPE = new Shape(START_FREQ);
 var shapes = [];
 
 function setup() {
-  createCanvas(1000, 650);
+  createCanvas(1046, 650);
   stroke(2); 
   fill(0);
 }

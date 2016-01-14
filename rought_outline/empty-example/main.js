@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
     $("#play").click(function(e){
+        stop_all();
         play_all();
     });
     $("#stop").click(function(e){
@@ -18,6 +19,14 @@ $(document).ready(function() {
         clear();
         shapes = [];
         ACTIVE_SHAPE = new Shape(START_FREQ);
+    });
+    $("#grid").click(function(e){
+        if ($("#grid-overlay").is(":visible")) {
+            $("#grid-overlay").hide();
+        } 
+        else {
+            ($("#grid-overlay").show())
+        } 
     });
 
 });

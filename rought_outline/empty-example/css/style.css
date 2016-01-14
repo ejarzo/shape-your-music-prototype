@@ -6,6 +6,34 @@ canvas {
     border: 1px solid #BBB;
     margin: 20px 70px;
 }
-canvas:hover {
+canvas:hover{
     cursor: crosshair;
+}
+
+#grid-overlay {
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    width: 1047px;
+    height: 650px;
+    overflow: hidden;
+}
+#grid-overlay:hover {
+    cursor: crosshair;
+}
+#grid-overlay img {
+    height: 100%;
+    opacity: 0.2;
+    /*pointer-effects: none;*/
+}
+
+.play-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    opacity: 0.8;
 }

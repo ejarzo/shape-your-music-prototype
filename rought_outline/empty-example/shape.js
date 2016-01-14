@@ -1,5 +1,8 @@
 "use strict"
-const LEN_DIV = 100; // TODO tempo here
+//const LEN_DIV = 200; // TODO tempo here
+const LEN_DIV = 200;
+console.log($("#tempo").val());
+
 var IS_PLAYING = true;
 
 class Shape {
@@ -21,9 +24,6 @@ class Shape {
         else return false;
     }
     append(x,y){ // TODO clean up
-        if (this.is_empty()) {
-            ellipse(x, y, 5, 5);
-        };
         var len = 0;
         var del = 0;
         var freq = this.start_freq;
@@ -32,29 +32,43 @@ class Shape {
         var pos = this.length();
         var n = new Node(x, y, len, del, freq);
 
-        if (this.length() >= 1) { // this is not the first node
-            
+        if (this.is_empty()) {
+            ellipse(x, y, 5, 5);
+            this.nodes.push(n);
+        }
+        else { // this is not the first node
             var prev_n = this.nodes[pos-1];
             
-            line(prev_n.x, prev_n.y, x, y);
+            if (!(x == prev_n.x && y == prev_n.y)) {
+                line(prev_n.x, prev_n.y, x, y);
 
-            n.len = dist(prev_n.x, prev_n.y, x, y) / LEN_DIV;
-            n.del = prev_n.del + prev_n.len;
+                n.len = dist(prev_n.x, prev_n.y, x, y) / LEN_DIV;
+                n.del = prev_n.del + prev_n.len;
 
-            if (this.length() >= 2) { // this is not the second node
-                theta = angle_of_intersection(this.at(pos-1),this.at(pos-2),n);
-                console.log(theta);
-                n.freq *= theta;
+                if (this.length() >= 2) { // this is not the second node
+                    theta = angle_of_intersection(this.at(pos-1),this.at(pos-2),n);
+                    console.log(theta);
+                    n.freq *= theta;
+                }   
+                this.nodes.push(n);
             }
         }
-        this.nodes.push(n);
     }
     play(){
-       IS_PLAYING = true;
+        IS_PLAYING = true;
+        var new_x = this.at(0).x + 66; //TODO
+        var new_y = this.at(0).y + 36;
+        console.log(new_y);
+        console.log(new_x);
+
+        
+        $(".play-dot").css("top", new_y);
+        $(".play-dot").css("left", new_x);
+
         this.play_helper(1);
     }
     play_helper(i){
-        console.log("ey", i);
+        //console.log("ey", i);
         if (i == this.length() && this.completed) { // loop if a completed shape
             this.play_helper(1);
         }
@@ -63,8 +77,13 @@ class Shape {
             var freq = this.at(i).freq;
             var len = this.at(i).len * 1000;
 
-            var sine1 = T("sin", {freq:freq, mul:0.5});
+            var sine1 = T("saw", {freq:freq, mul:0.5});
             
+            $(".play-dot").animate({ 
+                left: this.at(i).x + 66,
+                top: this.at(i).y + 36
+            }, len, "linear");
+
             T("perc", {r:len}, sine1).on("ended", function() {
                 if (IS_PLAYING) { // continue playing
                     curr_shape.play_helper(i+1);
