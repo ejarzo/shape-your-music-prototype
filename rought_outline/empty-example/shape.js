@@ -1,5 +1,7 @@
 "use strict"
-const LEN_DIV = 100;
+const LEN_DIV = 100; // TODO tempo here
+var IS_PLAYING = true;
+
 class Shape {
     constructor(start_freq) {
         this.nodes = [];
@@ -18,7 +20,7 @@ class Shape {
         }
         else return false;
     }
-    append(x,y){
+    append(x,y){ // TODO clean up
         if (this.is_empty()) {
             ellipse(x, y, 5, 5);
         };
@@ -45,22 +47,33 @@ class Shape {
                 n.freq *= theta;
             }
         }
-
-        this.nodes.push(n); // no nodes
+        this.nodes.push(n);
     }
     play(){
-        for (var i = 1; i < this.length(); i++) {
-//            this.at(i).IS_PLAYING = true;
-            this.at(i).play();
-/*            if (this.loop && i == (this.length-1)) {
-                i = 1;
-            };*/
-        };
+       IS_PLAYING = true;
+        this.play_helper(1);
     }
-    stop_playback(){
-        for (var i = 1; i < this.length(); i++) {
-//            this.at(i).IS_PLAYING = false;
-        };
+    play_helper(i){
+        console.log("ey", i);
+        if (i == this.length() && this.completed) { // loop if a completed shape
+            this.play_helper(1);
+        }
+        if (i < this.length()) {
+            var curr_shape = this;
+            var freq = this.at(i).freq;
+            var len = this.at(i).len * 1000;
+
+            var sine1 = T("sin", {freq:freq, mul:0.5});
+            
+            T("perc", {r:len}, sine1).on("ended", function() {
+                if (IS_PLAYING) { // continue playing
+                    curr_shape.play_helper(i+1);
+
+                } else { // stop
+                    this.pause()
+                };
+            }).bang().play();  
+        }
     }
     complete_shape(){
         if (this.completed == false && this.length() > 1) {
@@ -74,7 +87,6 @@ class Shape {
         }
     }
 }
-
 
 function angle_of_intersection (p1,p2,p3) {
     var x1 = p1.x 

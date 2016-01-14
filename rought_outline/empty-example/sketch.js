@@ -22,24 +22,28 @@ function mouseClicked() {
 function complete_shape() {
     var s = ACTIVE_SHAPE.complete_shape();
     shapes.push(s);
-    console.log(shapes);
+    //console.log(shapes);
     new_shape();
 }
 
 function play_all(){
     // TODO for all shapes....
-    for (var i = shapes.length - 1; i >= 0; i--) {
-        play_shape(shapes[i]);
+    var temp_list = shapes;
+    if (ACTIVE_SHAPE.length()>1) {
+        temp_list.push(ACTIVE_SHAPE);
     };
-    //play_shape(ACTIVE_SHAPE);
+    console.log(temp_list);
+    for (var i = shapes.length - 1; i >= 0; i--) {
+        play_shape(temp_list[i]);
+    };
 }
 
 function play_shape(shape){
     shape.play();
 }
 
-function stop_shape(shape){
-    shape.stop_playback();
+function stop_all(){
+    IS_PLAYING = false;
 }
 
 function new_shape(){
