@@ -18,6 +18,7 @@ $(document).ready(function() {
         stop_all();
         clear();
         shapes = [];
+        $( ".play-dot" ).remove();
         ACTIVE_SHAPE = new Shape(START_FREQ);
     });
     $("#grid").click(function(e){

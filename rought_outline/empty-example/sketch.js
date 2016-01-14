@@ -1,6 +1,6 @@
-var START_FREQ = 220;
-var ACTIVE_SHAPE = new Shape(START_FREQ);
 var shapes = [];
+var START_FREQ = 220;
+var ACTIVE_SHAPE = new Shape(START_FREQ, shapes.length);
 
 function setup() {
   createCanvas(1046, 650);
@@ -47,14 +47,5 @@ function stop_all(){
 }
 
 function new_shape(){
-    ACTIVE_SHAPE = new Shape(START_FREQ);
-}
-
-function keyPressed() {
-    if (keyCode === LEFT_ARROW) {
-        play_shape(ACTIVE_SHAPE);
-    }    
-    if (keyCode === RIGHT_ARROW) {
-        stop_shape(ACTIVE_SHAPE);
-    }    
+    ACTIVE_SHAPE = new Shape(START_FREQ, shapes.length) 
 }
