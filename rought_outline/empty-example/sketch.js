@@ -1,6 +1,7 @@
 var shapes = [];
 var START_FREQ = 220;
 var ACTIVE_SHAPE = new Shape(START_FREQ, shapes.length);
+var GRID_SIZE = 36;
 
 function setup() {
   createCanvas(1046, 650);
@@ -15,7 +16,13 @@ function draw() {
 function mouseClicked() {
     // TODO within canvas bounds
     if (mouseX > 0 && mouseY > 0) {
-        ACTIVE_SHAPE.append(mouseX, mouseY);
+        var x = mouseX;
+        var y = mouseY;
+        if ($("#snap").is(":checked")) {
+            x = (Math.round(mouseX / GRID_SIZE) * GRID_SIZE);
+            y = (Math.round(mouseY / GRID_SIZE) * GRID_SIZE);
+        };
+        ACTIVE_SHAPE.append(x, y);
     };
 }
 
