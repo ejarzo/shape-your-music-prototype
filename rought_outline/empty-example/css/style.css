@@ -1,15 +1,22 @@
 body {
     margin: auto;
-
+    font-family: Helvetica;
+    font-size: .8em;
 }
 canvas {
     border: 1px solid #BBB;
-    margin: 20px 70px;
+    margin: 40px 70px;
 }
 canvas:hover{
     cursor: crosshair;
 }
 
+#controls {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 40px;
+}
 #grid-overlay {
     position: absolute;
     top: 40px;

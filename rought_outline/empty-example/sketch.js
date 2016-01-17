@@ -1,6 +1,6 @@
-var shapes = [];
+var SHAPES = [];
 var START_FREQ = 220;
-var ACTIVE_SHAPE = new Shape(START_FREQ, shapes.length);
+var ACTIVE_SHAPE = new Shape(START_FREQ, SHAPES.length);
 var GRID_SIZE = 36;
 
 function setup() {
@@ -12,6 +12,11 @@ function setup() {
 function draw() {
 
 }
+
+// TODO 
+$("html").dblclick(function() {
+  complete_shape();
+});
 
 function mouseClicked() {
     // TODO within canvas bounds
@@ -28,19 +33,23 @@ function mouseClicked() {
 
 function complete_shape() {
     var s = ACTIVE_SHAPE.complete_shape();
-    shapes.push(s);
-    //console.log(shapes);
+    if (s) {
+        SHAPES.push(s);
+    };
+    //console.log(SHAPES);
     new_shape();
 }
 
 function play_all(){
-    // TODO for all shapes....
-    var temp_list = shapes;
-    if (ACTIVE_SHAPE.length()>1) {
+    // TODO for all SHAPES....
+    var temp_list = SHAPES.slice();
+    if (ACTIVE_SHAPE.length()) {
         temp_list.push(ACTIVE_SHAPE);
     };
-    console.log(temp_list);
-    for (var i = shapes.length - 1; i >= 0; i--) {
+    console.log("TEMP LIST:", temp_list);
+    console.log("SHAPES:", SHAPES);
+
+    for (var i = temp_list.length - 1; i >= 0; i--) {
         play_shape(temp_list[i]);
     };
 }
@@ -54,5 +63,7 @@ function stop_all(){
 }
 
 function new_shape(){
-    ACTIVE_SHAPE = new Shape(START_FREQ, shapes.length) 
+    //if (ACTIVE_SHAPE.length()) {
+        ACTIVE_SHAPE = new Shape(START_FREQ, SHAPES.length) 
+    //};
 }
