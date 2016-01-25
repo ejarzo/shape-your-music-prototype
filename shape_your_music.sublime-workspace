@@ -1,0 +1,1608 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mou",
+				"mouseX"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"Maj",
+				"MAJ_6TH"
+			],
+			[
+				"MAJ",
+				"MAJ_6TH"
+			],
+			[
+				"note",
+				"note_chooser_1"
+			],
+			[
+				"new",
+				"new_frequency"
+			],
+			[
+				"prev",
+				"prev_n"
+			],
+			[
+				"pre",
+				"prev_n"
+			],
+			[
+				"mouse",
+				"mouseY"
+			],
+			[
+				"rou",
+				"round_y"
+			],
+			[
+				"id",
+				"id_num"
+			],
+			[
+				"stop",
+				"stop_all"
+			],
+			[
+				"is",
+				"IS_PLAYING"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"star",
+				"start_freq"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
+				"LEN",
+				"LEN_DIVISOR"
+			],
+			[
+				"an",
+				"angle_of_intersection"
+			],
+			[
+				"paly",
+				"play_helper"
+			],
+			[
+				"play",
+				"play_helper"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"pla",
+				"play_shape"
+			],
+			[
+				"mous",
+				"mouseY"
+			],
+			[
+				"Mouse",
+				"mouseY"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"fad",
+				"fadeOut"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"mag",
+				"margin"
+			],
+			[
+				"fons",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wind",
+				"windowsize"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"siz",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"borderbott",
+				"border-bottom"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"bord",
+				"border-bottom-color"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"outl",
+				"outline"
+			],
+			[
+				"staf",
+				"staffPicksLoaded"
+			],
+			[
+				"getRe",
+				"getRecipeJsonById"
+			],
+			[
+				"getRE",
+				"getRecipeJsonById2"
+			],
+			[
+				"modal",
+				"modal-body"
+			],
+			[
+				"get",
+				"getRecipeJsonById"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"getre",
+				"getRecipeJsonById"
+			],
+			[
+				"loa",
+				"load_map"
+			],
+			[
+				"add",
+				"addLast"
+			],
+			[
+				"di",
+				"digits"
+			],
+			[
+				"borderco",
+				"border-color"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"class",
+				"class-method"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"deg",
+				"degree"
+			],
+			[
+				"TY",
+				"TYCON"
+			],
+			[
+				"fre",
+				"freetyvars"
+			],
+			[
+				"typ",
+				"typesof"
+			],
+			[
+				"body",
+				"bodyty"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"bool",
+				"booltype"
+			],
+			[
+				"Not",
+				"NotFound"
+			],
+			[
+				"ids",
+				"idsubst"
+			],
+			[
+				"local",
+				"local_log"
+			],
+			[
+				"set",
+				"setFold"
+			],
+			[
+				"tree",
+				"treeFoldr"
+			],
+			[
+				"pair",
+				"pairfoldr"
+			],
+			[
+				"ex",
+				"exception"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bottom",
+				"text-bottom"
+			],
+			[
+				"list",
+				"listFollowedBy"
+			],
+			[
+				"ls",
+				"listFollowedBy"
+			],
+			[
+				"se",
+				"seqOfList"
+			],
+			[
+				"onmou",
+				"onmouseover	Attr"
+			],
+			[
+				"make",
+				"make-formula"
+			],
+			[
+				"sat",
+				"satisfying-value"
+			],
+			[
+				"sa",
+				"satisfies"
+			],
+			[
+				"fail",
+				"failure-cont"
+			],
+			[
+				"var",
+				"variable-of"
+			],
+			[
+				"no",
+				"no-solution"
+			],
+			[
+				"rec",
+				"rec-loop"
+			],
+			[
+				"qsort",
+				"qsort-rec"
+			],
+			[
+				"q",
+				"qsort-rec"
+			],
+			[
+				"l",
+				"lambda"
+			],
+			[
+				"to",
+				"toUpdate"
+			],
+			[
+				"par",
+				"parse-element"
+			],
+			[
+				"drop",
+				"dropwhile-acc"
+			],
+			[
+				"conti",
+				"contig-sublist-acc"
+			],
+			[
+				"take",
+				"takewhile_acc"
+			],
+			[
+				"tak",
+				"takewhile_acc"
+			],
+			[
+				"coun",
+				"countall"
+			],
+			[
+				"a",
+				"default"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"mragi",
+				"margin-right"
+			],
+			[
+				"o",
+				"outline"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"show",
+				"showDrawer"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"style",
+				"stylesheet"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1611,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.js",
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sketch.js",
+			"settings":
+			{
+				"buffer_size": 1374,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodes.js",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "shape.js",
+			"settings":
+			{
+				"buffer_size": 5786,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 131.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"bros",
+				"SFTP: Browse Server…"
+			],
+			[
+				"bro",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"sftp",
+				"SFTP: Browse Remote…"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"br",
+				"SFTP: Browse Server…"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"brows",
+				"SFTP: Browse Server…"
+			],
+			[
+				"b",
+				"Bookmarks: Toggle"
+			]
+		],
+		"width": 503.0
+	},
+	"console":
+	{
+		"height": 58.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Elias/Documents/Dev/web/shape_your_music_all/shape_your_music/rought_outline/empty-example",
+		"/Users/Elias/Documents/Dev/web/shape_your_music_all/shape_your_music/rought_outline/empty-example/css"
+	],
+	"file_history":
+	[
+		"/Users/Elias/Library/Application Support/Sublime Text 3/Packages/User/HighlightWords.sublime-settings",
+		"/Users/Elias/Library/Application Support/Sublime Text 3/Packages/HighlightWords/HighlightWords.sublime-settings",
+		"/Users/Elias/Downloads/p5-release/empty-example/nodes.js",
+		"/Users/Elias/Downloads/p5-release/empty-example/shape.js",
+		"/Users/Elias/Downloads/p5-release/empty-example/css/style.css",
+		"/Users/Elias/Downloads/p5-release/empty-example/index.html",
+		"/Users/Elias/Downloads/p5-release/empty-example/sketch.js",
+		"/Users/Elias/Documents/Dev/web/daybreak/daybreak_new_landing_page/daybreakapp.github.io/css/daybreakStyle.css",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/answer.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/stylesheets/style.css",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/index.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/templates/answerPoll.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/answer.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/main.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/templates/answerSplash.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/signup.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/login.html",
+		"/Users/Elias/Dropbox/SmartPolls/smartpolls/public/templates/nav.html",
+		"/Users/Elias/Documents/SCHOOL/Junior/DM/08-responsive/js/scripts.js",
+		"/Users/Elias/Documents/SCHOOL/Junior/DM/08-responsive/style.css",
+		"/Users/Elias/Documents/SCHOOL/Junior/DM/08-responsive/index.html",
+		"/Users/Elias/Documents/Dev/web/aje_site/ajemusic.com/index.html",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/app.js",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/db.js",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/index.html",
+		"/Users/Elias/Documents/Dev/web/my_website/personal_website_2.0/css/main.css",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/main.html",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/login.html",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/signup.html",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/src/app.js",
+		"/Users/Elias/Documents/Dev/web/my_website/ejarzo.github.io/index.html",
+		"/Users/Elias/Documents/Dev/web/my_website/personal_website_2.0/js/vendor/sequence-theme.intro.js",
+		"/Users/Elias/Documents/Dev/web/my_website/personal_website_2.0/js/vendor/sequence.js",
+		"/Users/Elias/Documents/Dev/web/my_website/personal_website_2.0/404.html",
+		"/Users/Elias/Documents/Dev/web/my_website/ejarzo.github.io/humans.txt",
+		"/Users/Elias/Documents/Dev/web/my_website/ejarzo.github.io/404.html",
+		"/Users/Elias/Documents/SCHOOL/Junior/User Interface Design/hw/submit/navistyle.css",
+		"/Users/Elias/Documents/SCHOOL/Junior/User Interface Design/hw/submit/navi3.html",
+		"/Users/Elias/Documents/SCHOOL/Junior/User Interface Design/hw/submit/navi2.html",
+		"/Users/Elias/Documents/SCHOOL/Junior/User Interface Design/hw/submit/navi1.html",
+		"/Users/Elias/Documents/SCHOOL/Junior/User Interface Design/hw/submit/navi-style.css",
+		"/Users/Elias/Documents/Dev/web/aje_site/ajemusic.com/sftp-config.json",
+		"/Users/Elias/Documents/Dev/web/aje_site/ajemusic_freehostia/index.html",
+		"/Users/Elias/Documents/Dev/web/smartpolls/smartpolls/public/images/ic_keyboard_arrow_down_black_24px.svg",
+		"/Users/Elias/Documents/thundr/thundr-website/scripts/scripts.js",
+		"/Users/Elias/Documents/thundr/thundr-website/index.html",
+		"/Users/Elias/Documents/thundr/thundr-website/styles/stylesheet.css",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/styles/splash.css",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/splash.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/videos.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/index.php",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/releases.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/info.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/the-jolly-holiday-beats.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/the-locked-room.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/crab-man.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/scripts/jquery.ba-bbq.min.js",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/from-the-barn.html",
+		"/Users/Elias/Documents/AJE/aje_site/ajemusic/scripts/light_theme.css",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/css/styles.css",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/css/styles-signin.css",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/signup.html",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/signin.html",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/scripts/scripts.js",
+		"/Users/Elias/Documents/daybreak/daybreak-web-app/index.html",
+		"/Users/Elias/Documents/daybreak/local/scripts/scripts.js",
+		"/Users/Elias/Documents/daybreak/local/index.html",
+		"/Users/Elias/Documents/daybreak/local/css/styles.css",
+		"/Users/Elias/Documents/daybreak/index.html",
+		"/Users/Elias/Documents/daybreak/css/styles.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/styles/stylesheet.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/scripts/homepage.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/scripts/profile.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/scripts/scripts.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/views/profile.handlebars",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/views/homepage.handlebars",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/views/login.handlebars",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/views/layouts/main.handlebars",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/styles/cosmostheme.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/scripts/signup.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/views/error.handlebars",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-ejarzombek/README.md",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/profile.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/login.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/public/homepage.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-ejarzombek/security/index.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-ejarzombek/security/README.md",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-ejarzombek/security/stylesheet.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-ejarzombek/security/hack.sh",
+		"/Users/Elias/Desktop/assignment3/index.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw9/heapsort.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw9/heap-sig.sml",
+		"/Users/Elias/Documents/grades",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw8/bignum.smt.lisp",
+		"/Users/Elias/Documents/code/learn_python/grades",
+		"/Users/Elias/Documents/AJE/AJE_site_local/styles.css",
+		"/Users/Elias/Documents/AJE/AJE_site_local/index.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/apr13notes",
+		"/Users/Elias/Documents/code/learn_python/comp_grade.py",
+		"/Users/Elias/Documents/AJE/AJE_site_local/styles_w.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/solo/1-2.nml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/submit/1-2.nml",
+		"/var/folders/zj/6k_0ppp943sc_mhnfd9gl2qm0000gn/T/sublime-sftp-browse-1428625922/tufts/h/ejarzo01/Desktop/tuscheme.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/solution.scm",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/submit/ml.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/submit/stest.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/stest.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/ttest.nml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/1-2.nml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/ml.sml",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/tests2",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/README",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/out2",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_105/comp105/hw7/nml/out1",
+		"/Users/Elias/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/signup.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/scripts.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/styles/cosmostheme.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/styles/stylesheet.css",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/login.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/homepage.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/comp20-spring2015-team22/search.html",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/node-js-getting-started/package.json",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/node-js-getting-started/index.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/server.js",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/README.md",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/Procfile",
+		"/Users/Elias/Documents/SCHOOL/Sophomore/Spring/comp_20/node-example/package.json"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MAJ",
+			"console.log",
+			"shapes",
+			"new Shape",
+			"MIN",
+			"on(e)",
+			"e",
+			"MAJ",
+			"temp_list",
+			"220",
+			"440",
+			"*=",
+			";",
+			"}  ",
+			"round",
+			"round_x",
+			"36",
+			"10",
+			"mouseX",
+			"play-dot",
+			"new shape",
+			"sine1",
+			"freq",
+			"36",
+			"66",
+			"65",
+			"35",
+			"toString",
+			"IS_PLA",
+			"is_p",
+			"is_",
+			"_freq",
+			"conso",
+			"x1",
+			"log",
+			"count",
+			"shape",
+			"shape1",
+			"shape",
+			"nodes",
+			"1",
+			"2",
+			"node",
+			"console",
+			"d",
+			"(pixel)",
+			"200px",
+			"font",
+			"60px",
+			"body {",
+			"example",
+			" class=\"example-image\" ",
+			"div",
+			"bison4",
+			"img3",
+			"img2",
+			"img1",
+			"img",
+			"                            <div class=\"image-title\">\n                                Lorem ipsum dolor sit amet\n                            </div>\n                            <div class=\"image-text\">\n                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.\n                            </div>",
+			"nav {",
+			"400px",
+			"span",
+			"nav",
+			"thumb",
+			"footer",
+			"class=\"download\"",
+			"class=\"listen\"",
+			"dd901c",
+			"D39A44",
+			"ad4f52",
+			"555",
+			"30px",
+			"sorry.html",
+			"href=\"sorry.html\" ",
+			"stratus.",
+			"url",
+			"mongo",
+			"5px",
+			"ul ",
+			"nav",
+			"777",
+			"text",
+			"top",
+			"bottom",
+			"0.1s;",
+			"5",
+			"2",
+			"100",
+			"888",
+			"1p",
+			"2p",
+			"F1F1F1",
+			"51",
+			".section",
+			"portfol",
+			"img",
+			"hidden",
+			"}\n\n",
+			"1",
+			"40%",
+			"min-he",
+			"portf",
+			"50",
+			"arrow",
+			"portfolio",
+			"portfol",
+			"splash",
+			"7",
+			"arrow",
+			"splash",
+			"bio",
+			"height: 50",
+			"#nav-desktop",
+			"nav",
+			"#nav-desk",
+			"nav-d",
+			"ion",
+			"header nav",
+			"nav",
+			"iframe",
+			";\n",
+			"class=\"no-comp\"",
+			"section",
+			"max-he",
+			"EEE",
+			"000",
+			"fff",
+			".arrow"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1611,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64,
+								64
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								332,
+								332
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 84.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "sketch.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1374,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "nodes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "shape.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3530,
+								3530
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"highlight_size": 1,
+							"highlight_text": "TODO",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1388.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.481529221892,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 99.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 23.0
+	},
+	"pinned_build_system": "",
+	"project": "shape_your_music.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/AJE/AJE_site_local/aje.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 412.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 186.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
